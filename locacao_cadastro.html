@@ -115,47 +115,44 @@
 
                 <form>
                   <div class="form-row">
-                    <div class="form-group col-md-8">
-                      <label for="inputEmail4">Equipamento</label>
-                      <input type="email" class="form-control" id="idequipamento" placeholder="Nome do Equipamento">
+                    <div class="form-group col-md-6">
+                     <label for="inputState">Equipamento</label>
+                      <select id="idcliente" class="form-control">
+                        <option selected></option>
+                        <option>Aberta Demais De Oliveira</option>
+                        <option>Colapso Cardíaco da Silva</option>
+                        <option>Inocêncio Coitadinho</option>
+                        <option>Juvenalda Datia Gulosa</option>
+                      </select>                        
                     </div>
-                    <div class="form-group col-md-4">
-                      <label for="inputPassword4">Modelo</label>
-                      <input type="text" class="form-control" id="idmodelo" placeholder="Modelo">
-                    </div>
-                  </div>
-                  <div class="form-row">
-                      <div class="form-group col-md-7">
-                        <label for="inputAddress">Marca</label>
-                        <input type="text" class="form-control" id="idmarca" placeholder="Marca">
-                      </div>
-                      <div class="form-group col-md-2">
-                        <label for="inputAddress">Peso</label>
-                        <input type="text" class="form-control" id="idpeso" placeholder="Peso em Kilograma">
-                      </div>    
-                  </div>            
-                  <div class="form-group">
-                    <label for="inputAddress2">Descrição</label>
-                    <input type="text" class="form-control" id="idcomplemento" placeholder="Descrição do Equipamento">
-                  </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-4">
-                      <label for="inputState">Condição</label>
-                      <select id="idestado" class="form-control">
-                        <option selected>Selecionar...</option>
-                        <option>ÓTIMO</option>
-                        <option>BOM</option>
-                        <option>REGULAR</option>
-                        <option>PÉSSIMO</option>
+                    <div class="form-group col-md-6">
+                     <label for="inputState">Cliente</label>
+                      <select id="idcliente" class="form-control">
+                        <option selected></option>
+                        <option>Desfribilador</option>
+                        <option>Bisturi</option>
+                        <option>Estetoscópio</option>
+                        <option>Monitor Cardiáco</option>
                       </select>
                     </div>
                   </div>
                   <div class="form-row">
-                      <div class="form-group">
-                        <label for="inputAddress2">Data de Aquisição</label>
-                        <input type="date" class="form-control" id="iddata" placeholder="Data de Aquisição">
-                      </div>                                      
-                  </div>  
+                      <div class="form-group col-md-2">
+                        <label for="inputAddress">Data de Locação</label>
+                        <input type="date" class="form-control" id="idlocacao" placeholder="Locação">
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputAddress">Data Prevista de Devolução</label>
+                        <input type="date" class="form-control" id="iddevolucao" placeholder="Devolução">
+                      </div>    
+                  </div>   
+                  <div class="form-row"> 
+                      <div class="form-group col-md-2">
+                        <label for="inputAddress2"><b>Valor</b></label>
+                        <input type="number" class="form-control" id="idvalor" placeholder="Valor em R$">
+                      </div>  
+                  </div>        
+
                 </div>
                   <div class="form-group">
                   </div>
