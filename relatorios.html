@@ -19,7 +19,7 @@
 <body>
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
     <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html"><i>eHealth</i><img src="./imagens/Saude.png" alt="Smiley face" height="32" width="32""></a>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Pesquisar" aria-label="Pesuisar">
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
             <a class="nav-link" href="#">Sair</a>
@@ -63,7 +63,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="sobre.html">
                             <span data-feather="layers"></span>
                             Sobre
                         </a>
@@ -106,49 +106,39 @@
         </nav>
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h1 class="h2">Clientes</h1>
-                <a href="clientes_cadastro.html" class="btn btn-success">Cadastro</a>
-            </div>
-
             <table class="table table-striped">
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Nome</th>
-                        <th>CPF</th>
-                        <th>Email</th>
-                        <th>Açoes</th>
+                        <th>Título Relatório</th>
+                        <th>Descrição</th>
+                        <th>Ação</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Aberta Demais De Oliveira</td>
-                        <td>99999999</td>
-                        <td>teste@testes.com.br</td>
-                        <td>Alterar / Deletar</td>
+                        <td>Relação de Clientes</td>
+                        <td>Dados cadastrais dos clientes.</td>
+                        <td><button type="button" class="btn btn-secondary"><b>Emitir</b></button></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Colapso Cardíaco da Silva</td>
-                        <td>99999999</td>
-                        <td>teste@testes.com.br</td>
-                        <td>Alterar / Deletar</td>
+                        <td>Relação de Equipamentos</td>
+                        <td>Dados cadastrais dos equipamentos.</td>
+                        <td><button type="button" class="btn btn-secondary"><b>Emitir</b></button></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Inocêncio Coitadinho</td>
-                        <td>99999999</td>
-                        <td>teste@testes.com.br</td>
-                        <td>Alterar / Deletar</td>
+                        <td>Relação de Locação</td>
+                        <td>Equipamentos locados por clientes.</td>
+                        <td><button type="button" class="btn btn-secondary"><b>Emitir</b></button></td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Juvenalda Datia Gulosa</td>
-                        <td>99999999</td>
-                        <td>teste@testes.com.br</td>
-                        <td>Alterar / Deletar</td>
+                        <td>Previsão de Retorno</td>
+                        <td>Controle de entrega de equipamentos por data.</td>  
+                        <td><button type="button" class="btn btn-secondary"><b>Emitir</b></button></td>
                     </tr>
                 </tbody>
             </table>
